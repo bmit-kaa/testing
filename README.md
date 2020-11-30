@@ -4,11 +4,11 @@ Dies ist der offizielle Verwaltungsort für die Arbeit am Kundenprojekt A057.
 
 ## Ressourcen
 Die OneNote Seite zum Projekt befindet sich unter 
-https://1drv.ms/u/s!AkZbQGuhhvDsw0mI7rE_sEvohTdU?wd=target%28c%5C%29%20IT%20Services%20by%20ESPAS%2F1%20API%20Auftr%C3%A4ge%2FA051-A060%2FA057K%20Beacon.one%7CE745A7C3-4D8B-4A8E-A05B-0B9B31B5000C%2FA057K%20Beacon%7C85288D58-542F-4B41-A337-72B3BCB8380B%2F%29
-onenote:https://d.docs.live.net/ecf086a16b405b46/OneNote%20Einzelordner/BM%20IT%202%20-%20Praxis/BM%20IT%202%20-%20Praxis/c)%20IT%20Services%20by%20ESPAS/1%20API%20Aufträge/A051-A060/A057K%20Beacon.one#A057K%20Beacon&section-id={E745A7C3-4D8B-4A8E-A05B-0B9B31B5000C}&page-id={85288D58-542F-4B41-A337-72B3BCB8380B}&end
+[Beacon OneNote Dokumentation](https://1drv.ms/u/s!AkZbQGuhhvDsw0mI7rE_sEvohTdU?wd=target%28c%5C%29%20IT%20Services%20by%20ESPAS%2F1%20API%20Auftr%C3%A4ge%2FA051-A060%2FA057K%20Beacon.one%7CE745A7C3-4D8B-4A8E-A05B-0B9B31B5000C%2FA057K%20Beacon%7C85288D58-542F-4B41-A337-72B3BCB8380B%2F%29
+onenote:https://d.docs.live.net/ecf086a16b405b46/OneNote%20Einzelordner/BM%20IT%202%20-%20Praxis/BM%20IT%202%20-%20Praxis/c)%20IT%20Services%20by%20ESPAS/1%20API%20Aufträge/A051-A060/A057K%20Beacon.one#A057K%20Beacon&section-id={E745A7C3-4D8B-4A8E-A05B-0B9B31B5000C}&page-id={85288D58-542F-4B41-A337-72B3BCB8380B}&end)
 
 Die Tasks werden im ClickUp festgehalten.
-https://app.clickup.com/1371872/v/b/6-4982501-2?pr=1429075
+[clickUp sprint](https://app.clickup.com/1371872/v/b/6-4982501-2?pr=1429075)
 
 ## Spezifisches zum Repo
 Dieses Repository wird mit dem git-flow-workflow verwalten. 
