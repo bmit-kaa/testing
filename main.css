@@ -35,6 +35,10 @@ footer {grid-area: footer;}
   }
   /* Grid Layout end */
   /* design body start */
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
   /* design body start */
   /* design main start*/
 
