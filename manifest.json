@@ -2,6 +2,7 @@
     "name": "Beacon Projekt", 
     "short_name": "Beacon",
     "start_url": "/index.html",
+    "scope": "/",
     "display": "standalone",
     "background_color": "#00FFFF",
     "theme_color": "#85BDE7",
