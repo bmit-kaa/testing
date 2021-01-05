@@ -9,6 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+// @wim react file mit Benutzerspezifischem Inhalte
+*.eslintcache
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
