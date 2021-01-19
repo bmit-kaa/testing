@@ -11,7 +11,7 @@ const App = () =>{
                 </header>
                 <main>
                                        
-                    <button id="helloButton">Hello Beacon</button>
+                    <button id="helloButton" onClick={()=>console.log("Hello World")}>Hello Beacon</button>
                     <p id="demo"></p>
                 </main>
                 <footer>
