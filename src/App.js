@@ -38,7 +38,7 @@ function yeet2(){
 }
 
   return (
-    <div className="grid-container">
+   /*  <div className="grid-container">
                 <header>
                     <h1>Wilkommen zum Beacon Projekt</h1>
                 </header>
@@ -50,7 +50,7 @@ function yeet2(){
                 <footer>
                     <p>IT Services Espas</p>
                 </footer>
-            </div>      
+            </div>       */
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
