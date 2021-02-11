@@ -38,6 +38,19 @@ function yeet2(){
 }
 
   return (
+    <div className="grid-container">
+                <header>
+                    <h1>Wilkommen zum Beacon Projekt</h1>
+                </header>
+                <main>
+                                       
+                    <button id="helloButton" onClick={()=>console.log("Hello World")}>Hello Beacon</button>
+                    <p id="demo"></p>
+                </main>
+                <footer>
+                    <p>IT Services Espas</p>
+                </footer>
+            </div>      
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -66,5 +79,4 @@ function yeet2(){
     </div>
   );
 }
-
 export default App;
