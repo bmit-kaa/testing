@@ -10,17 +10,16 @@ Die Tasks werden im ClickUp festgehalten.
 [clickUp sprint](https://app.clickup.com/1371872/v/b/6-4982501-2?pr=1429075)
 
 ## Spezifisches zum Repo
-Dieses Repository wird mit dem git-flow-workflow verwalten. 
+Dieses Repository wird mit dem git-flow-workflow verwaltet. 
 
-Falls nicht klar wie das funktioniert.
+Falls nicht klar ist wie das funktioniert:  
 https://www.atlassian.com/de/git/tutorials/comparing-workflows/gitflow-workflow
 
-Die Namenskonvention für die Branches ist wie folgt:
-Feature branches? feature/
-Release branches? release/
-Hotfix branches? hotfix/
-Support branches? support/
+Die Namenskonvention für die Branches ist wie folgt:  
+Feature branches? feature/  
+Release branches? release/  
+Hotfix branches? hotfix/  
 
-Es ist optional die Befehlsabkürzungen zu installieren.
+Es ist optional die Befehlsabkürzungen gitflow zu installieren.
 
 ![eine Commit-Grafik](https://wac-cdn.atlassian.com/dam/jcr:61ccc620-5249-4338-be66-94d563f2843c/05%20(2).svg?cdnVersion=1342)
