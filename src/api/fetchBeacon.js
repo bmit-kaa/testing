@@ -31,4 +31,5 @@ function yeet2(){
       );
     }
 }
-// functions...
+
+export { yeet, yeet2 };
