@@ -30,6 +30,24 @@
   color: white;
 }
 
+#helloButton {
+      background-color: aqua;
+      padding: 16px 32px;
+      border: 2px solid aqua;
+      border-radius: 8px;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#helloButton:hover {
+      cursor: pointer;
+      background-color:  #0dbbbb; 
+  }
+
+#helloButton:active {
+      cursor: progress;
+      background-color:   #0e9696;
+  }
+
 .App-link {
   color: #61dafb;
 }

@@ -38,45 +38,32 @@ function yeet2(){
 }
 
   return (
-   /*  <div className="grid-container">
-                <header>
-                    <h1>Wilkommen zum Beacon Projekt</h1>
-                </header>
-                <main>
-                                       
-                    <button id="helloButton" onClick={()=>console.log("Hello World")}>Hello Beacon</button>
-                    <p id="demo"></p>
-                </main>
-                <footer>
-                    <p>IT Services Espas</p>
-                </footer>
-            </div>       */
+
     <div className="App">
       <header className="App-header">
+        <h1>Wilkommen zum Beacon Projekt</h1>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+
         <p></p>
-        <button onClick={yeet}>Show Beacons</button>
+        <button id="helloButton" onClick={yeet}>Show Beacons</button>
+                    <p id="demo"></p>
         <ul className="beacontext">
-        <a id="beacon0"></a>
-        <a id="beacon1"></a>
-        <a id="beacon2"></a>
-        <a id="beacon3"></a>
-        <a id="beacon4"></a>
-        <a id="beacon5"></a>
+          <a id="beacon0"></a>
+          <a id="beacon1"></a>
+          <a id="beacon2"></a>
+          <a id="beacon3"></a>
+          <a id="beacon4"></a>
+          <a id="beacon5"></a>
         </ul>
+
+      <footer>
+        <p>IT Services Espas</p>
+      </footer>
+
       </header>
     </div>
+
   );
 }
 export default App;
