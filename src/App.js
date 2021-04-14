@@ -2,7 +2,7 @@ import logo from './espasarrow.png';
 import './App.css';
 import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
-import './api/fetchBeacon'
+import featchBeacon from './api/fetchBeacon'
 
 function App() {
   return (
