@@ -12,6 +12,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SekImage from './info.png';
+import { FaSearch } from "react-icons/FaSearch";
 
 const useStyles = makeStyles({
     root:{
@@ -19,7 +20,26 @@ const useStyles = makeStyles({
     },
 });
 
+const Searchbar = ({onChange, placeholder}) => {
+    return(
+        <div className ="Search">
+            <span className="SearchSpan">
+                <FaSearch/>
+            </span>
+            <input
+                className="SearchInput"
+                type="text"
+                onChange={onChange}
+                placeholder={placeholder}
+            />
+        </div>
+
+    );
+}
+
+
 function Styling() {
+
     
    const classes = useStyles();
 
