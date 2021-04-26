@@ -13,6 +13,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SekImage from './info.png';
 import { FaSearch } from "react-icons/fa";
+import { Link, BrowserRouter, Route, NavLink } from 'react-router-dom'
+import Sekretariat from './Sekretariat';
 
 const useStyles = makeStyles({
     root:{
@@ -49,12 +51,16 @@ function Styling() {
   
     return (
     <div>
-
+        <Searchbar/>
         <Container fluid>
             <Row>
                 <Col>
+                
                 <Card className ={classes.root}>
                 <CardActionArea>
+                        <Typography gutterBottom variant="h5" component="h2">
+                            Info Point
+                        </Typography>
                     <CardMedia 
                     component = "img"
                     alt= "Sekretariat"
@@ -62,19 +68,16 @@ function Styling() {
                     image={SekImage}
                     title="Info Point"/>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Lizard
-                        </Typography>
+                        
                         <Typography variant="body2" color="textSecondary" component="p">
                             Hier werden Sie fündig wo sich der Info Point befindet.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        Share
-                    </Button>
+                <BrowserRouter> <NavLink activeClassName={Sekretariat} to="./Sekretariat">About</NavLink> </BrowserRouter> 
                 </CardActions>
+                
             </Card>
             </Col>
             <Col>
